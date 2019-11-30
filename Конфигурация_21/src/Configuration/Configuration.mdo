@@ -33,5 +33,6 @@
   <catalogs>Catalog.Склад</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
   <enums>Enum.ТипыТоваров</enums>
 </mdclass:Configuration>
