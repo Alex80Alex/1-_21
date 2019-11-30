@@ -36,5 +36,6 @@
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ПоступлениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
   <enums>Enum.ТипыТоваров</enums>
 </mdclass:Configuration>

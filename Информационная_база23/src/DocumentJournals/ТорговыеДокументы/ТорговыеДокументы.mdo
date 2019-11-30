@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf2ca6fb-5a39-4e6b-9a09-0dedce483923">
+  <producedTypes>
+    <selectionType typeId="fabed669-25db-4187-a381-88a14b142e00" valueTypeId="9cb40170-0b16-4901-91e4-ab1937ccbd5a"/>
+    <listType typeId="8cc12594-79fc-477b-bf65-6f53df4f36c9" valueTypeId="0815bc3c-7eef-4e27-bbbb-d9aaccedc009"/>
+    <managerType typeId="ed4e9804-d24a-416e-a366-60e50af1d67d" valueTypeId="562062f7-1fbd-4c5c-8912-34137d1f0515"/>
+  </producedTypes>
+  <name>ТорговыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЗаказКлиента</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+</mdclass:DocumentJournal>
