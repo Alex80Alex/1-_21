@@ -30,4 +30,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Склад</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
 </mdclass:Configuration>
