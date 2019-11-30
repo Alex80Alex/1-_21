@@ -34,5 +34,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
   <enums>Enum.ТипыТоваров</enums>
 </mdclass:Configuration>
