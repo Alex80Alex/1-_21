@@ -31,4 +31,5 @@
   </languages>
   <catalogs>Catalog.Склад</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
 </mdclass:Configuration>

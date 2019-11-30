@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb931e51-ede0-4920-9737-52db0e1ff36f">
+  <producedTypes>
+    <objectType typeId="2c15edf1-dce7-4bf3-9933-dd4d886d7d54" valueTypeId="0643e025-9c9b-4384-baad-198c5393b15c"/>
+    <refType typeId="95aabcba-46aa-45d4-92fd-36515911b0fe" valueTypeId="b9c7667e-f94b-4af4-8b05-6aa9dad8a65d"/>
+    <selectionType typeId="52b20ff1-92bf-49d1-9778-97caaf8ded81" valueTypeId="af43fe9d-12cd-4110-99d8-784a540fc9d5"/>
+    <listType typeId="609ae212-2f02-4f29-a19e-0225693d1299" valueTypeId="ece5cc71-0a7f-4dbc-9885-cca3ea466afe"/>
+    <managerType typeId="e5b3d8f6-6b48-4fa5-b44a-5593fa609645" valueTypeId="f22a64e9-53df-4c8e-9fcf-8b9197dfb543"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b0b74d5b-0042-4c20-87cb-b58576e3de16">
+    <name>ОписаниеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание товара</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93a1e76c-9246-4114-9d78-6b32ab7cf89a">
+    <name>ОснавнойПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оснавной поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
