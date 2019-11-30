@@ -134,4 +134,17 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="d2b0acfc-89f9-4711-b7cf-0a62a744b7f3">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="b272052d-e36b-41d4-b381-fe2e7fb329a0">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:Document>

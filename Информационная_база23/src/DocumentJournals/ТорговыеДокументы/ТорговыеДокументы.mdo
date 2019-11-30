@@ -14,4 +14,14 @@
   <registeredDocuments>Document.ЗаказКлиента</registeredDocuments>
   <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
   <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <columns uuid="eb618b8b-71a6-4882-b8bb-3e798717dddc">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <references>Document.ЗаказКлиента.Attribute.Клиент</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Поставщик</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Клиент</references>
+  </columns>
 </mdclass:DocumentJournal>
