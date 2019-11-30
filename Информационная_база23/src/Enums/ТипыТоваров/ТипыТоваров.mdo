@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39fb6024-acaa-44f3-9ff2-ca6c5ce26dbb">
+  <producedTypes>
+    <refType typeId="94575ce0-80ca-42af-afa4-16e4ecc36881" valueTypeId="20444d1e-c018-4c64-becf-ade7068ca2df"/>
+    <listType typeId="8735bc2c-9359-4dc1-b1c0-973b1bb3f67f" valueTypeId="ed4aa900-9f12-4d76-83ca-8175ea5ad48b"/>
+    <managerType typeId="bb4cfa71-3b6f-477d-bcfb-3ddf0528a174" valueTypeId="37964903-7fb8-46f9-a5df-bd40b9c65205"/>
+  </producedTypes>
+  <name>ТипыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы товаров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3cbc3171-ac2b-4a26-a3ef-9e5b8d88939b">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cbe968c-7f29-439d-aa55-19f6b67b73b1">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6766c5b4-42c2-4f7a-b797-9a6a6edbf5d9">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76e2016a-408b-4a2b-9a97-172fc6494cf8">
+    <name>ВозвратнаяТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвратная тара</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
