@@ -36,6 +36,7 @@
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ПоступлениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ВыпискаБанка</documents>
   <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
   <enums>Enum.ТипыТоваров</enums>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
