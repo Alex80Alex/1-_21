@@ -29,6 +29,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Покупки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
   <constants>Constant.НазваниеОрганизации</constants>
   <catalogs>Catalog.Склад</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
