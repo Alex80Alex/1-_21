@@ -56,6 +56,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7568c8fe-be81-4768-8297-27c589dba76d">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="2af8ac0c-21e5-4694-8e49-3a349a4f5647">
     <producedTypes>
       <objectType typeId="a0873a6f-5bf6-4081-8a9b-032d5fb58dfb" valueTypeId="912279c5-73cf-4c41-a741-b8ecd146a39b"/>
