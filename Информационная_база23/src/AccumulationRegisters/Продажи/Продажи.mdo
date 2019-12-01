@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb93a7bf-314a-43c6-94a5-437540795935">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb93a7bf-314a-43c6-94a5-437540795935">
   <producedTypes>
     <selectionType typeId="4a33fd1e-a281-4fb9-accc-430a2c3745b2" valueTypeId="1ece2f5d-812b-47b9-96c1-3139eb7d6c5c"/>
     <listType typeId="64a9ac81-7408-42c4-a12b-2909448b9033" valueTypeId="95317a0c-d7dd-4e9b-8fc9-25df316b937b"/>
@@ -30,6 +30,8 @@
         <scale>3</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="39b022bc-88db-4805-a869-b7422a339305">
@@ -45,6 +47,8 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="07ab36a6-5c6e-463c-b23c-8b456ee21d21">
@@ -60,6 +64,8 @@
         <scale>3</scale>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="a0f29103-558b-482c-a86c-a0518e840204">
@@ -71,6 +77,8 @@
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
@@ -83,6 +91,8 @@
     <type>
       <types>CatalogRef.Номенклатура</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
