@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="202f914b-90f0-40f5-a17d-e6428b18c556">
+  <name>Конфигурация_21</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация 21</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="74c23e46-902b-4ee2-9211-e5b62d930379"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="023f24b8-1f1e-4742-bbf3-812d8e5f7b36"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9284d6a4-a235-4bf4-9ccf-62cea942fc42"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ee14bf64-e731-4255-b824-b9f35405f0ac"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1deebec9-3ce0-456f-b344-68c05530bca2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="139624a2-bd07-4ae5-8c40-2b10f71ff39a"/>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="5baa6f81-a3f3-4dc9-bb3b-18a8ae7ce5b6">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <catalogs>Catalog.Склад</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Валюта</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ВыпискаБанка</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
+  <enums>Enum.ТипыТоваров</enums>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
