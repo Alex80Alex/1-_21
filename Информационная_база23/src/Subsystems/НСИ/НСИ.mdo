@@ -7,4 +7,11 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.НазваниеОрганизации</content>
+  <content>Catalog.Склад</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Валюта</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
 </mdclass:Subsystem>
